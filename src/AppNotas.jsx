@@ -3,6 +3,7 @@ import axios from "axios";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 export const AppNotas = () => {
+  
   const [notes, setNotes] = useState([]);
   const [tile, setTitle] = useState("");
   const [text, setText] = useState("");
